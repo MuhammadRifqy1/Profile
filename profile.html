@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Rifqy Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./profile.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" >
+    <script src="https://kit.fontawesome.com/71baea9eb0.js" crossorigin="anonymous"></script>
+    <script src="./profile.js"></script>
+  </head>
+  <body>
+
+    <nav id="navbar" class="top navbar py-2 px-3 bg-black top">
+      <ul class="nav nav-pills col-12 justify-content-evenly">
+        <li class="nav-item">
+          <a class="btn btn-outline-light py-1" data-scroll="#welcomePart"><i class="fa-solid fa-house pe-2"></i>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-light py-1" data-scroll="#aboutPart"><i class="fa-solid fa-info pe-2"></i>About</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-light py-1" data-scroll="#projectPart"><i class="fa-solid fa-folder-closed pe-2"></i>Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-light py-1" data-scroll="#skillPart"><i class="fa-solid fa-code pe-2"></i>Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-light py-1" data-scroll="#contactPart"><i class="fa-solid fa-phone pe-2"></i>Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar" class="scrollspy-container rounded-2" tabindex="0">
+
+    <header class="welcome-title text-center pt-3" id="welcomePart"><h1 class="fw-bold mb-0">Hello !</h1></header>
+
+    <div class="wavy">
+      <div class="box"></div>
+    </div>
+
+    <div class="welcome-part d-flex">
+      <div class="welcome-text animate fade-animation col-6  d-flex align-items-center text-center justify-content-center flex-column">
+          <h1 class="col-md-8 col-10 "> Hi ! , I'm Rifqy</h1>
+          <h3 class="col-md-8 col-10  welcome-desc fw-semibold">A Junior Web Development That Still Try To Learn New Stuff And Interested In Front End Development</h3>
+      </div>
+      <div class="col-lg-4 col-6 animate image-container fade-animation">
+        <img  class="col-12" src="./Img/outline-item.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="wavy-2" id="aboutPart">
+      <div class="box-2"></div>
+    </div>
+
+    <div class="whole-about">
+
+      <header class="about-title text-center pb-2 pt-3" ><h1 class="fw-bold mb-0 animate">About Me</h1></header>
+
+      <div class="about-part d-flex flex-column">
+
+        <div class="col-12 image-container d-flex justify-content-center pb-2 animate">
+          <img  class="col-md-3 col-5" src="./Img/html-set.png" alt="Html Set">
+        </div>
+
+        <div class="about-text col-12  d-flex align-items-center text-center justify-content-center flex-column animate">
+            <h3 class="col-md-7 col-sm-9 col-11 about-desc fw-semibold">For Now , I'm Still Trying To Get More Experience By Making Project . Usually , I Make A Website With Simple Html,Css And JS With Some Addon Like Bootstrap</h3>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="wavy-3">
+      <div class="box-3"></div>
+    </div>
+
+    <header class="project-title text-center pb-2 pt-3" id="projectPart"><h1 class="fw-bold mb-0 animate">Project</h1></header>
+
+    <div class="project-part d-flex flex-column">
+      <div class="project-text col-12  d-flex align-items-center text-center justify-content-center flex-column">
+          <h2 class="col-8 animate"> This Is The Project That I Already Done For Now</h2>
+      </div>
+      <div class="col-12 project-list-container d-grid pt-3">
+
+        <div class="card align-items-center col-10 animate">
+          <h3 class="card-title text-center pt-3">Shopping Web</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-9 " src="./Img/logo.png" alt="Shop Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center"> This Project Was The One That I Learn From The Mosts . The Feature That I Like To Showcase Is Item Buying , Item Search , And Account Function</h5>
+          <a href="https://muhammadrifqy1.github.io/Plantimart/shopping-home.html" class="btn btn-outline-dark my-3">Go To Website</a>
+        </div>
+
+        <div class="card align-items-center col-10 animate">
+          <h3 class="card-title text-center pt-3">Portofolio</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-12 " src="./Img/outline-item.png" alt="Portofolio Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center"> This Portofolio Wasn't The First One That I Started With . I Make This Portofolio Mostly Just For Showcasing My Project And The One That I'm Planing To Make </h5>
+          <a href="#" class="btn btn-outline-dark my-3">Go To Website</a>
+        </div>
+
+        <div class="card align-items-center col-10 bg-body-secondary animate">
+          <h3 class="card-title text-center pt-3">Wordpress</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-7" src="./Img/wordpress.png" alt="WordPress Logo">
+          </div>
+          <h2 class="col-11 card-text project-desc fw-normal d-flex align-items-center justify-content-center text-secondary"> Coming Soon </h2>
+          <a href="#" class="btn btn-outline-dark disabled my-3 text-secondary">Go To Website</a>
+        </div>
+
+        <div class="card align-items-center col-10 bg-body-secondary animate">
+          <h3 class="card-title text-center pt-3">Business Web</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-7 " src="./Img/briefcase.png" alt="Business Logo">
+          </div>
+          <h2 class="col-11 card-text project-desc fw-normal d-flex align-items-center justify-content-center text-secondary"> Coming Soon</h2>
+          <a href="#" class="btn btn-outline-dark disabled my-3 text-secondary">Go To Website</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="wavy">
+      <div class="box"></div>
+    </div>
+
+    <header class="skill-title text-center pb-2 pt-3" id="skillPart"><h1 class="fw-bold mb-0 animate">Skill</h1></header>
+
+    <div class="skill-part">
+
+    <h3 class="text-center animate">Skill Indicator</h3>
+    <div class="card skill-indicator flex-row col-xl-3 col-lg-4 col-md-5 col-10 m-auto align-items-center justify-content-center bg-black animate" >
+      <i class="fa-solid fa-square good pe-1 text-success"></i><h6 class="m-0 pe-3 text-white">Good</h6>
+      <i class="fa-solid fa-square average pe-1 text-warning"></i><h6 class="m-0 pe-3 text-white">Average</h6>
+      <i class="fa-solid fa-square base pe-1 text-danger"></i><h6 class="m-0 text-white">Just The Base</h6>
+    </div>
+
+      <div class="col-12 skill-list-container d-grid pt-3">
+
+        <div class="card card-skill align-items-center col-10 bg-warning animate">
+          <h3 class="card-title text-center pt-3  text-white">HTML + CSS</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-sm-10 col-9 " src="./Img/html+css.png" alt="Html And Css Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center text-white"> Html And Css Is The Base Of Web Development . I Still Need To Learn Some Of The Tools That Can Be Used But Mostly I Already Know The Needed Tools To Make A Web</h5>
+        </div>
+
+        <div class="card card-skill align-items-center col-10 bg-warning animate">
+          <h3 class="card-title text-center pt-3  text-white">Javascript</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-sm-7 col-6 " src="./Img/js.png" alt="JS Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center text-white"> I Use JS In A Pretty Good Amount Of Time Like In My Shopping Website . But , I Still To Explore Most Of The Framework Tha I Can Used In JS</h5>
+        </div>
+
+        <div class="card card-skill align-items-center col-10 bg-success animate">
+          <h3 class="card-title text-center pt-3  text-white">Bootstrap</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-sm-7 col-6 " src="./Img/bootstrap.png" alt="Bootstrap Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center text-white">Bootstrap Was A Very Nice Tool For Building Responsive Website , Its Simple To Use And Good For People That Doesnt Like Huge Line Of CSS</h5>
+        </div>
+
+        <div class="card card-skill align-items-center col-10 bg-danger animate">
+          <h3 class="card-title text-center pt-3 text-white">Python</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-sm-7 col-6 " src="./Img/python.png" alt="Python Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center text-white">I Still Need To Learn How To Use Python For Back End Development . I Learn Python From Udemy Courses But I Still Can't Implement It In My Code </h5>
+        </div>
+
+        <div class="card card-skill align-items-center col-10 bg-warning animate">
+          <h3 class="card-title text-center pt-3 text-white">UI / UX</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-sm-7 col-6 " src="./Img/UI.png" alt="UI Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center text-white">Sometimes , I Still Have A Problem At Designing A Responsive Website . But For Simple UI In A Web , I Usually Doesn't Have Any Problem</h5>
+        </div>
+
+        <div class="card card-skill align-items-center col-10 bg-danger animate">
+          <h3 class="card-title text-center pt-3 text-white">Github</h3>
+          <div class="col-12 d-flex align-items-center justify-content-center text-center project-img-container">
+            <img class="col-sm-7 col-6 " src="./Img/github.png" alt="Github Logo">
+          </div>
+          <h5 class="col-11 card-text project-desc fw-normal d-flex align-items-center text-white">So Far , I Use Github For Hosting A Website . Many Part About Github I Still Doesn't Understand And Actually Need To Dedicate Some Times To Learn It</h5>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="wavy-2">
+      <div class="box-2"></div>
+    </div>
+
+    <header class="contact-title text-center pb-2 pt-3" ><h1 class="fw-bold mb-0">Contact</h1></header>
+
+    <div class="contact-part d-flex flex-column" id="contactPart">
+
+      <h2 class="text-center">You Can Contact Me In :</h2>
+
+      <div class="contact-container p-3 m-auto col-lg-10 col-11 bg-secondary-subtle border border-5 mb-5">
+        <div class="col-xl-11 col-12 contact-grid d-grid m-auto shadow-lg">
+          <h4 class="m-0 ps-2"><i class="pe-2 fa-brands fa-square-github"></i>Muhammadrifqy1</h4>
+          <h4 class="m-0 ps-2"><i class="pe-2 fa-brands fa-whatsapp"></i>+62 877-7127-9458</h4>
+          <h4 class="m-0 ps-2"><i class="pe-2 fa-brands fa-linkedin"></i>Muhammad Rifqy</h4>
+          <h4 class="m-0 ps-2"><i class="pe-2 fa-solid fa-envelope"></i>muhammadrifqy222@gmail.com</h4>
+          <h4 class="m-0 ps-2"><i class="pe-2 fa-brands fa-square-instagram"></i>rifqy_bfdh</h4>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="bot">
+    <nav id="navbar" class="navbar bg-black px-3">
+        <li class="nav-item">
+          <a class="nav-link" data-scroll="#welcomePart"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-scroll="#aboutPart"><i class="fa-solid fa-info"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-scroll="#projectPart"><i class="fa-solid fa-folder-closed"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-scroll="#skillPart"><i class="fa-solid fa-code"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-scroll="#contactPart"><i class="fa-solid fa-phone"></i></a>
+        </li>
+    </nav>
+  </footer>
+
+  </body>
+</html>
