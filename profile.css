@@ -139,6 +139,10 @@ a.nav-link {
   height: 200px
 }
 
+.bot{
+  display: none;
+}
+
 @media (max-width: 991px) {
 
   .card-skill{
