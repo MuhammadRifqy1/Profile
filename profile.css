@@ -3,6 +3,18 @@ html{
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+.fa-square-instagram{
+  color: var(--bs-code-color);
+}
+
+.fa-envelope{
+  color: var(--bs-red);
+}
+
 .welcome-title , .wavy , .project-part , .project-title{
   color: black;
   background: #a3dbdf;
