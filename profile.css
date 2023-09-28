@@ -170,9 +170,9 @@ a.nav-link {
     bottom: 0;
     left: 0;
     width: 100%;
-    color: #black; /* Change the text color as needed */
+    color: black; /* Change the text color as needed */
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     z-index: 1000; /* Ensure the footer is above other elements */
     display: flex !important;
     flex-direction: column;
